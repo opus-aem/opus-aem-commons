@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-06-10T12:28:08.638-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/opuscommons/templates/page-home"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="home"
+        sling:resourceType="opuscommons/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="opuscommons/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="opuscommons/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="opuscommons/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="opuscommons/components/content/text"
+                text="&lt;p>This is a home page&lt;/p>"
+                textIsRich="true"/>
+            <colctrl
+                jcr:created="{Date}2015-06-10T12:28:08.524-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-06-10T12:28:08.524-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="opuscommons/components/content/colctrl"/>
+            <col_end14339500887740
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="opuscommons/components/content/colctrl"
+                controlType="end"/>
+        </par>
+    </jcr:content>
+</jcr:root>
