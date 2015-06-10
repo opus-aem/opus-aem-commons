@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Text"
+    title="sumário da notícia"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <titulo
+            jcr:primaryType="cq:Widget"
+            fieldLabel="titulo da notícia"
+            hideLabel="{Boolean}false"
+            name="./sumario-titulo"
+            xtype="textfield"/>
+        <sumario
+            jcr:primaryType="cq:Widget"
+            fieldLabel="sumário descritivo da notícia"
+            hideLabel="{Boolean}false"
+            name="./sumario-descricao"
+            xtype="textarea"/>
+        <date
+            jcr:primaryType="cq:Widget"
+            fieldLabel="data da publicação"
+            hideLabel="{Boolean}false"
+            name="./sumario-data"
+            xtype="datetime"/>
+    </items>
+</jcr:root>

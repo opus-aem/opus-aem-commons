@@ -217,5 +217,5 @@
             <groupId>com.day.cq.wcm</groupId>
             <artifactId>cq-wcm-taglib</artifactId>
         </dependency>
-    </dependencies>
+   </dependencies>
 </project>
