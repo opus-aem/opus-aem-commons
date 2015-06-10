@@ -10,8 +10,7 @@
         sling:redirectStatus="{Long}302"
         sling:resourceType="foundation/components/redirect"
         redirectTarget="/content/opuscommons/en">
-        <image jcr:primaryType="nt:unstructured">
-            <file/>
-        </image>
+        <image/>
     </jcr:content>
+    <home/>
 </jcr:root>

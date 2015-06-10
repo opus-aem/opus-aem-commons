@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/content/opuscommons/en"/>
+    <filter root="/content/opuscommons"/>
     <filter root="/content/dam/opuscommons"/>
 </workspaceFilter>
