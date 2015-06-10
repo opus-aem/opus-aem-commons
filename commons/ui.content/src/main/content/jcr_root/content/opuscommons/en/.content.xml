@@ -65,8 +65,6 @@
                 sling:resourceType="opuscommons/components/content/image"
                 fileReference="/content/dam/opuscommons/asset.jpg"/>
         </par>
-        <image jcr:primaryType="nt:unstructured">
-            <file/>
-        </image>
+        
     </jcr:content>
 </jcr:root>
