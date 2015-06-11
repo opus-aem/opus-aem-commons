@@ -24,7 +24,7 @@ public String getp( Page p, String key, String def) {
     	qt= Integer.parseInt( properties.get( "qt").toString());
     } catch( Exception ignore){}
 
-    Page root = slingRequest.getResourceResolver().adaptTo(PageManager.class).getPage("/content/pesim/noticias");
+    Page root = slingRequest.getResourceResolver().adaptTo(PageManager.class).getPage("/content/opuscommons/sample-news");
 	List<Page> noticias= Noticias.getAllOrdenadas( root, 0, 0);
 
 	int seq= 1;

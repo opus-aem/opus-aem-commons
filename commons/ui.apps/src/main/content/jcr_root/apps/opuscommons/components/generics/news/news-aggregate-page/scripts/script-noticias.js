@@ -4,7 +4,7 @@ $(function() {
     var qt= 10;
 
     function loadUltimasNoticias() {
-		var url= '/content/pesim/noticias.views.ultimas-noticias.html?qt='+qt;
+		var url= '/content/opuscommons/news.views.last-news.html?qt='+qt;
         $( "#conteudo-noticias").load( url, function() {
 
             //TODO: Exibir lightbox como modal
@@ -23,7 +23,7 @@ $(function() {
 
     function loadNoticasPorQuery() {
 		var m= $('#select-mes option:selected').val();
-		var url= '/content/pesim/noticias.views.ultimas-noticias.html?qt='+qt+'&m='+ m;
+		var url= '/content/opuscommons/news.views.last-news.html?qt='+qt+'&m='+ m;
 
 		$( "#conteudo-noticias").load( url, function() {
 
