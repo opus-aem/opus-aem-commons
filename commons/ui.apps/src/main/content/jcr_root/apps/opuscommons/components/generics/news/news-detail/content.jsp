@@ -2,9 +2,6 @@
 <%@include file="/libs/foundation/global.jsp"%>
 
 
-
-
-
 <!-- tela para edição (author) de uma notícias -->
 
 <div class="content noticia">
@@ -14,7 +11,7 @@
     </div>
     <div class="util--espacamento-17"></div>
 
-    <h1 class="noticia__titulo subtitulo subtitulo--cinza subtitulo--md"><cq:include path="noticia-titulo" resourceType="pesim/components/custom/general/simple-text"/></h1>
+    <h1 class="noticia__titulo subtitulo subtitulo--cinza subtitulo--md"><cq:include path="noticia-titulo" resourceType="opuscommons/components/content/simple-text"/></h1>
     <hr>
 
     <div class="util--espacamento-34"></div>

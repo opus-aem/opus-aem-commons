@@ -12,7 +12,7 @@ $(function() {
 		
 		//TODO-AEM: substituir pelo path da noticia usando renderizador tipo lightbox. 
 		//Ex: /content/pesim/noticias/noticias-<id>.lightbox-com-noticia-na-integra.jsp
-		var url= "/content/pesim/noticias/noticia-"+id+".lightbox-com-noticia-na-integra.html";
+		var url= "/content/opuscommons/sample-news/noticia-"+id+".lightbox-com-noticia-na-integra.html";
 
 		$( "#lightbox-noticias").load( url, function() {
 
